@@ -9,5 +9,6 @@
 	<modules>
 		<module>ribbon-client</module>
 		<module>ribbon-server</module>
+		<module>ribbon-eureka-server</module>
 	</modules>
 </project>

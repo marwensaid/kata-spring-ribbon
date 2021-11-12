@@ -1,27 +1,18 @@
 package com.example.ribbonclient;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.cloud.client.loadbalancer.LoadBalanced;
-import org.springframework.context.annotation.Bean;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.client.RestTemplate;
 
-@RestController
+// this is a REST controller
 public class MyClientSideController {
-	@LoadBalanced
-	@Bean
-	RestTemplate restTemplate() {
-		return new RestTemplate();
-	}
+	// create a rest template bean and make it load balanced
 
-	@Autowired
-	RestTemplate restTemplate;
+
+	// auto-inject it
 
 	@RequestMapping("/client/frontend")
 	public String hi(@PathVariable String id) {
-		String randomString = this.restTemplate.getForObject("http://server/backend", String.class);
-		return "Server Response :: " + randomString;
+		// we gonna return a randomString using our rest object
+		return null;
 	}
 }

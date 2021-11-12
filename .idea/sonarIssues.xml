@@ -3,12 +3,42 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="$PROJECT_DIR$/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/ribbon-client/pom.xml">
           <value>
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/ribbon-client/src/main/java/com/example/ribbonclient/MyClientSideController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/ribbon-client/src/main/java/com/example/ribbonclient/RibbonClientApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/ribbon-client/src/main/java/com/example/ribbonclient/RibbonConfiguration.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/ribbon-eureka-server/src/main/java/com/example/ribboneurekaserver/RibbonEurekaServerApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/ribbon-server/src/main/java/com/example/ribbonserver/MyRestController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/ribbon-server/src/main/java/com/example/ribbonserver/RibbonServerApplication.java">
           <value>
             <set />
           </value>

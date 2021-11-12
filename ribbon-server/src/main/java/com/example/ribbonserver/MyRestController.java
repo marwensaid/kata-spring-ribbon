@@ -1,15 +1,12 @@
 package com.example.ribbonserver;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.core.env.Environment;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
 
-@RestController
+// this is a Rest Controller
 public class MyRestController {
 
-	@Autowired
-	Environment environment;
+
+	// auto-inject Environment
 
 	@GetMapping("/")
 	public String health() {
@@ -20,10 +17,10 @@ public class MyRestController {
 	public String backend() {
 		System.out.println("Inside MyRestController::backend...");
 
-		String serverPort = environment.getProperty("local.server.port");
+		// call a backend server with right port
 
-		System.out.println("Port : " + serverPort);
 		
-		return "Hello form Backend!!! " + " Host : localhost " + " :: Port : " + serverPort;
+		// show message from backend with server port
+		return null;
 	}
 }

@@ -2,10 +2,9 @@ package com.example.ribboneurekaserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 @SpringBootApplication
-@EnableEurekaServer
+// this is a eureka server
 public class RibbonEurekaServerApplication {
 
 	public static void main(String[] args) {
