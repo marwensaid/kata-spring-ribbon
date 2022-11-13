@@ -2,11 +2,10 @@ package com.example.ribbonserver;
 
 import org.springframework.web.bind.annotation.GetMapping;
 
-// this is a Rest Controller
+// TODO : this is a Rest Controller
 public class MyRestController {
 
-
-	// auto-inject Environment
+	// TODO : auto-inject Environment
 
 	@GetMapping("/")
 	public String health() {
@@ -17,10 +16,8 @@ public class MyRestController {
 	public String backend() {
 		System.out.println("Inside MyRestController::backend...");
 
-		// call a backend server with right port
-
-		
-		// show message from backend with server port
+		// TODO : call a backend server with right port
+		// TODO : show message from backend with server port
 		return null;
 	}
 }

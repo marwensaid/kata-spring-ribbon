@@ -7,11 +7,11 @@ import com.netflix.loadbalancer.IRule;
 import com.netflix.loadbalancer.PingUrl;
 import org.springframework.context.annotation.Bean;
 
-// this is a ribbon configuration
+// TODO this is a ribbon configuration
 public class RibbonConfiguration {
 
 
-    // auto-inject a IClientConfig
+    // TODO : auto-inject a IClientConfig
 
     @Bean
     public IPing ribbonPing(IClientConfig config) {

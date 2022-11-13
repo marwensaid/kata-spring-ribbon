@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-// this is a eureka server
+// TODO : this is a eureka server (annotation)
 public class RibbonEurekaServerApplication {
 
 	public static void main(String[] args) {
